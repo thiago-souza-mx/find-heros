@@ -12,12 +12,11 @@ https://find-heros.herokuapp.com
 ## Rotas
 
 ```
-/serch?q=<param:query>
+/serch?q={param:query}
 ```
-Retorna uma lista de Heróis que contém o termo <param>
+Retorna uma lista de Heróis que contém o termo {param:query}
 
 ```
-/hero/<param:slug>
+/hero/{param:slug}
 ```
-Retorna um objeto que correponda ao slug <param:slug>
-
+Retorna um objeto que correponda ao slug {param:slug}

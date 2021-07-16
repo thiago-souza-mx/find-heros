@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API de super-heróis</title>
+
+  <style>
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .routes{
+      list-style: none;
+      padding: 0;
+      margin: 40px 0;      
+    }
+    .routes li{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0;
+    }
+    .routes li a{
+      text-decoration: none;
+      font-size: 22px;  
+      background: rgb(0, 183, 255); 
+      padding: 20px;
+      border-radius: 10px;
+      color: rgb(255, 255, 255);
+      transition: 0.4s all;
+    }
+
+    .routes li a:hover{
+      background: rgb(0, 127, 177); 
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>API de super-heróis</h1>
+    <ul class="routes">
+      <li>
+        <a href="/search?q=hair" >
+          /search?={param:query}
+        </a>
+      </li>
+      <li>
+        <a href="/hero/1-a-bomb" >
+          /hero/{param:slug}
+        </a>
+      </li>
+    </ul>
+  </div>  
+</body>
+</html>

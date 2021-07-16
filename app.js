@@ -3,9 +3,7 @@ const controller = require("./src/controllers");
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-  res.send('API de super-heróis')
-})
+app.use('/',express.static("public"))
 
 app.get('/search', controller.search );
 
