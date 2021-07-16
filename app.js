@@ -1,7 +1,7 @@
 const express = require('express');
 const controller = require("./src/controllers");
 const app = express();
-const port = 3000;
+const port = 80;
 
 app.get('/', (req, res) => {
   res.send('API de super-heróis')
