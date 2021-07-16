@@ -1,0 +1,16 @@
+{
+  "name": "teste-app-masters",
+  "version": "1.0.0",
+  "description": "API de super-heróis",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Thiago Souza",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
