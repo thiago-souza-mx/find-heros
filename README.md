@@ -1,6 +1,8 @@
 # find-heros
 API de super-heróis
 
+![alt text](https://github.com/thiago-souza-mx/find-heros/blob/main/public/img/hero.jpg)
+
 Projeto de seleção para a empresa App Masters
 
 https://appmasters.io/pt/
